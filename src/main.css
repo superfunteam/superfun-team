@@ -3,6 +3,7 @@
 @custom-variant biz (&:where(.biz, .biz *));
 
 @theme {
+  --color-primary: #00DB1A;
   --color-neutral: #DADCD6;
 }
 

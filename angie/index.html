@@ -18,6 +18,102 @@
     <link rel="stylesheet" href="../dist/main.css">
 </head>
 <body>
-    <h1 class="text-4xl">Angie</h1>
+
+<!-- start of nav, main component in main index.html -->
+<nav class="w-full p-4 flex justify-between items-center">
+
+<div class="logo">
+    <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M22.5 0C18.0499 0 13.6998 1.3196 9.99968 3.79193C6.29957 6.26426 3.41569 9.77828 1.71272 13.8896C0.00974873 18.001 -0.435826 22.525 0.432341 26.8895C1.30051 31.2541 3.44343 35.2632 6.59011 38.4099C9.73679 41.5566 13.7459 43.6995 18.1105 44.5677C22.475 45.4358 26.999 44.9902 31.1104 43.2873C35.2217 41.5843 38.7357 38.7004 41.2081 35.0003C43.6804 31.3002 45 26.9501 45 22.5C45 16.5326 42.6295 10.8097 38.4099 6.5901C34.1903 2.37053 28.4674 0 22.5 0Z" fill="black"/>
+    <path d="M22.2184 35.9999C23.3982 35.9999 24.3546 35.0435 24.3546 33.8637C24.3546 32.6839 23.3982 31.7275 22.2184 31.7275C21.0386 31.7275 20.0822 32.6839 20.0822 33.8637C20.0822 35.0435 21.0386 35.9999 22.2184 35.9999Z" class="biz:fill-neutral-400" fill="#00DB1A"/>
+    <path d="M16.5361 32.2128C17.7159 32.2128 18.6723 31.2563 18.6723 30.0765C18.6723 28.8967 17.7159 27.9403 16.5361 27.9403C15.3563 27.9403 14.3999 28.8967 14.3999 30.0765C14.3999 31.2563 15.3563 32.2128 16.5361 32.2128Z" class="biz:fill-neutral-400" fill="#00DB1A"/>
+    <path d="M22.2179 20.6058V24.3939C22.9672 24.394 23.6997 24.6164 24.3227 25.0328C24.9456 25.4493 25.431 26.0412 25.7175 26.7336C26.004 27.4261 26.0787 28.1879 25.9321 28.9228C25.7856 29.6576 25.4243 30.3325 24.8941 30.8621L27.5743 33.5383C28.6336 32.4788 29.3549 31.129 29.6472 29.6595C29.9394 28.1901 29.7894 26.667 29.216 25.2828C28.6427 23.8986 27.6719 22.7155 26.4263 21.883C25.1806 21.0505 23.7161 20.6061 22.2179 20.6058Z" class="biz:fill-neutral-400" fill="#00DB1A"/>
+    <path d="M22.4569 8.99994C21.2771 8.99994 20.3207 9.95635 20.3207 11.1362C20.3207 12.316 21.2771 13.2724 22.4569 13.2724C23.6367 13.2724 24.5931 12.316 24.5931 11.1362C24.5931 9.95635 23.6367 8.99994 22.4569 8.99994Z" fill="white"/>
+    <path d="M28.1392 12.7873C26.9594 12.7873 26.003 13.7437 26.003 14.9235C26.003 16.1033 26.9594 17.0597 28.1392 17.0597C29.319 17.0597 30.2754 16.1033 30.2754 14.9235C30.2754 13.7437 29.319 12.7873 28.1392 12.7873Z" fill="white"/>
+    <path d="M22.4573 24.394L22.4573 20.606C21.7079 20.6059 20.9755 20.3835 20.3525 19.967C19.7296 19.5505 19.2442 18.9587 18.9577 18.2662C18.6712 17.5738 18.5965 16.812 18.7431 16.0771C18.8896 15.3422 19.2508 14.6673 19.781 14.1378L17.1008 11.4616C16.0416 12.5211 15.3202 13.8709 15.028 15.3403C14.7358 16.8098 14.8858 18.3329 15.4591 19.7171C16.0324 21.1012 17.0033 22.2844 18.2489 23.1168C19.4946 23.9493 20.9591 24.3938 22.4573 24.394Z" fill="white"/>
+    </svg>
+</div>
+
+<div class="pitch hidden md:block text-center">Superfun is the Austin web agency of Angie & Clark Wimberly.<br>We’ve worked with lots of awesome folks! <a href="#" class="font-bold">Get in touch →</a></div>
+
+<div class="nav">
+    <svg width="37" height="20" viewBox="0 0 37 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.333496" y="0.5" width="36" height="3" fill="black"/>
+    <rect x="0.333496" y="8.5" width="36" height="3" fill="black"/>
+    <rect x="0.333496" y="16.5" width="36" height="3" fill="black"/>
+    </svg>
+</div>
+
+</nav>
+<!-- end of nav -->
+    
+
+    <div class="max-w-5xl">
+  <div class="px-4 sm:px-0">
+    <h3 class="text-base/7 font-semibold text-gray-900">Applicant Information</h3>
+    <p class="mt-1 max-w-2xl text-sm/6 text-gray-500">Personal details and application.</p>
+  </div>
+  <div class="mt-6 border-t border-gray-100">
+    <dl class="divide-y divide-gray-100">
+      <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm/6 font-medium text-gray-900">Full name</dt>
+        <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">Margot Foster</dd>
+      </div>
+      <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm/6 font-medium text-gray-900">Application for</dt>
+        <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">Backend Developer</dd>
+      </div>
+      <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm/6 font-medium text-gray-900">Email address</dt>
+        <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">margotfoster@example.com</dd>
+      </div>
+      <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm/6 font-medium text-gray-900">Salary expectation</dt>
+        <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">$120,000</dd>
+      </div>
+      <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm/6 font-medium text-gray-900">About</dt>
+        <dd class="mt-1 text-sm/6 text-gray-700 sm:col-span-2 sm:mt-0">Fugiat ipsum ipsum deserunt culpa aute sint do nostrud anim incididunt cillum culpa consequat. Excepteur qui ipsum aliquip consequat sint. Sit id mollit nulla mollit nostrud in ea officia proident. Irure nostrud pariatur mollit ad adipisicing reprehenderit deserunt qui eu.</dd>
+      </div>
+      <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+        <dt class="text-sm/6 font-medium text-gray-900">Attachments</dt>
+        <dd class="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+          <ul role="list" class="divide-y divide-gray-100 rounded-md border border-gray-200">
+            <li class="flex items-center justify-between py-4 pr-5 pl-4 text-sm/6">
+              <div class="flex w-0 flex-1 items-center">
+                <svg class="size-5 shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                  <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 0 0-4.242 0l-7 7a3 3 0 0 0 4.241 4.243h.001l.497-.5a.75.75 0 0 1 1.064 1.057l-.498.501-.002.002a4.5 4.5 0 0 1-6.364-6.364l7-7a4.5 4.5 0 0 1 6.368 6.36l-3.455 3.553A2.625 2.625 0 1 1 9.52 9.52l3.45-3.451a.75.75 0 1 1 1.061 1.06l-3.45 3.451a1.125 1.125 0 0 0 1.587 1.595l3.454-3.553a3 3 0 0 0 0-4.242Z" clip-rule="evenodd" />
+                </svg>
+                <div class="ml-4 flex min-w-0 flex-1 gap-2">
+                  <span class="truncate font-medium">resume_back_end_developer.pdf</span>
+                  <span class="shrink-0 text-gray-400">2.4mb</span>
+                </div>
+              </div>
+              <div class="ml-4 shrink-0">
+                <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
+              </div>
+            </li>
+            <li class="flex items-center justify-between py-4 pr-5 pl-4 text-sm/6">
+              <div class="flex w-0 flex-1 items-center">
+                <svg class="size-5 shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
+                  <path fill-rule="evenodd" d="M15.621 4.379a3 3 0 0 0-4.242 0l-7 7a3 3 0 0 0 4.241 4.243h.001l.497-.5a.75.75 0 0 1 1.064 1.057l-.498.501-.002.002a4.5 4.5 0 0 1-6.364-6.364l7-7a4.5 4.5 0 0 1 6.368 6.36l-3.455 3.553A2.625 2.625 0 1 1 9.52 9.52l3.45-3.451a.75.75 0 1 1 1.061 1.06l-3.45 3.451a1.125 1.125 0 0 0 1.587 1.595l3.454-3.553a3 3 0 0 0 0-4.242Z" clip-rule="evenodd" />
+                </svg>
+                <div class="ml-4 flex min-w-0 flex-1 gap-2">
+                  <span class="truncate font-medium">coverletter_back_end_developer.pdf</span>
+                  <span class="shrink-0 text-gray-400">4.5mb</span>
+                </div>
+              </div>
+              <div class="ml-4 shrink-0">
+                <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Download</a>
+              </div>
+            </li>
+          </ul>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</div>
+
+
 </body>
 </html>
