@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@custom-variant biz (&:where(.biz, .biz *));
+
+@theme {
+  --color-neutral: #DADCD6;
+}
+
 @font-face {
     font-family: 'Open Sauce Sans';
     src: url('../fonts/OpenSauceSans-Light.woff2') format('woff2'),
@@ -29,4 +35,5 @@
 
 body{
 	font-family: 'Open Sauce Sans';
+    font-weight: 300;
 }
